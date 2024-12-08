@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+.top {
+  background-color: rgba(37, 43, 66, 1);
+}
+.summer {
+  font-family: "Montserrat", sans-serif;
+  color: rgba(255, 255, 255, 1);
+}
+.new {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Montserrat", sans-serif;
+}
+.text {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Montserrat", sans-serif;
+}
+.button1 {
+  background-color: rgba(45, 192, 113, 1);
+  color: rgba(255, 255, 255, 1);
+}
+.logo{
+  color: rgba(37, 43, 66, 1);
+  font-family: "Montserrat", sans-serif;
+}
+.links {
+  color: rgba(115, 115, 115, 1);
+  font-family: "Montserrat", sans-serif;
+}
+.icon1{
+  color: rgba(37, 43, 66, 1);
+}
+.icons {
+  color: rgba(37, 43, 66, 1);
+}
+.h3 {
+  color: rgba(37, 43, 66, 1);
+  font-family: "Montserrat", sans-serif;
+}
+.p {
+  color: rgba(115, 115, 115, 1);
+}
+.main {
+  background-color: rgba(239, 232, 232, 1);
+}
+.men {
+  font-family: "Montserrat", sans-serif;
+  color: rgba(37, 43, 66, 1);
+}
+.feature {
+  color: rgba(115, 115, 115, 1);
+  font-family: "Montserrat", sans-serif;
+}
+.feature1{
+  color: rgba(37, 43, 66, 1);
+  font-family: "Montserrat", sans-serif;
+}
+.design {
+  color: rgba(37, 43, 66, 1);
+  font-family: "Montserrat", sans-serif;
+}
+.english {
+  color: rgba(115, 115, 115, 1);
+  font-family: "Montserrat", sans-serif;
+}
+.p1 {
+  color: rgba(189, 189, 189, 1);
+}
+.p2 {
+  color: rgba(35, 133, 109, 1)
+}
+.summer {
+  font-family: "Montserrat", sans-serif;
+  line-height: 50px; 
+}
+.new {
+  font-family: "Montserrat", sans-serif;
+}
+.para {
+  font-family: "Montserrat", sans-serif;
+}
+.button {
+  background-color: rgba(45, 192, 113, 1);
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+}
+.button2  {
+  background-color: rgba(45, 192, 113, 1);
+  color: white;
+}
