@@ -3,16 +3,15 @@ import { useState } from 'react';
 import { IoCartOutline, IoSearchOutline} from "react-icons/io5";
 import { BiMenuAltRight } from "react-icons/bi";
 import { MdOutlinePersonOutline } from "react-icons/md";
-import { CiHeart } from "react-icons/ci";
 import Image from 'next/image';
 import Link from 'next/link';
 
-export default function Navbar() {
+export default function Navbar1() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <nav className="bg-white">
-      <div className="max-w-[1440px] mx-[15px] sm:px-6">
+      <div className="max-w-[1440px] lg:mx-[55px] mx-[20px] sm:px-6 mt-[20px]">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
 
@@ -24,10 +23,8 @@ export default function Navbar() {
           {/* Desktop Links */}
           <div className="hidden lg:flex items-center space-x-8 justify-center">
             <Link href="/" className="font-bold text-[#737373] text-[14px]">Home</Link>
-            <Link href="/" className="text-[#252B42] text-[14px] font-medium">Shop</Link>
-            <Image src="/drop.png" alt='pic' height="20" width="10" className='text-[#252B42] mr-[10px]'></Image>
-            <Link href="/about" className="font-bold text-[#737373] text-[14px]">About</Link>
-            <Link href="/team" className="font-bold text-[#737373] text-[14px]">Blog</Link>
+            <Link href="/product" className="font-bold text-[#737373] text-[14px]">Product</Link>
+            <Link href="/pricing" className="font-bold text-[#737373] text-[14px]">Pricing</Link>
             <Link href="/contact" className="font-bold text-[#737373] text-[14px]">Contact</Link>
 
           </div>
@@ -37,12 +34,15 @@ export default function Navbar() {
           {/* Icons for Desktop */}
           <div className="hidden lg:flex items-center space-x-4 text-[#23A6F0]">
           <MdOutlinePersonOutline className="w-4 h-4 cursor-pointer"/>
-          <Link href="#" className='text-[14px] font-bold '>Login / Register</Link>
-            <IoSearchOutline className="w-4 h-4 cursor-pointer" />
-            <IoCartOutline className="w-4 h-4 cursor-pointer" />
-            <p>1</p>
-            <CiHeart className="w-4 h-4 cursor-pointer"/>
-            <p>1</p>
+          <Link href="#" className='text-[14px] font-bold '>Login</Link>
+          <div className='lg:flex lg:justify-center lg:items-center'>
+          <div className='h-[52px] w-[215px] bg-[#23A6F0] hover:bg-[#4b93bd] rounded-md cursor-pointer'>
+            <button className='text-[14px] font-bold text-white pt-[15px] pl-[30px]'>Become a memeber</button>
+          </div>
+          <div className='relative right-[40px]'>
+          <Image src="/for.png" alt='for' height="10" width="15" className=''/>
+          </div>
+          </div>
           </div>
 
           {/* Mobile Menu Button */}
@@ -64,11 +64,11 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden">
+        <div className="lg:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 links text-[30px] font-normal leading-[50px] flex flex-col justify-center items-center">
             <div className='flex flex-col justify-center items-center text-center'>
             <Link href="/" className="">Home</Link>
-            <Link href="/product" className="block ">Product</Link>
+            <Link href="/product" className="">Product</Link>
             <Link href="/pricing" className="block">Pricing</Link>
             <Link href="/contact" className="block">Contact</Link>
             </div>
