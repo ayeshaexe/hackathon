@@ -19,7 +19,7 @@ export default function Contact () {
                 <h4 className="text-[20px] font-medium text-[#737373] mt-[15px] text-center lg:text-start">We know how large objects will act&rsquo; but things 
                 on a small scale just do 
                 not act that way.</h4>
-                <h3 className="text-[24px] font-bold text-[#252B42] mt-[15px] text-start">Phone ; +451 215 215 </h3>
+                <h3 className="text-[24px] font-bold text-[#252B42] mt-[15px] text-start">Phone : +451 215 215 </h3>
                 <h3 className="text-[24px] font-bold text-[#252B42] mt-[10px]">Fax : +451 215 215 </h3>
                 <div className="flex flex-row gap-3 mt-[15px]">
                 <FaTwitter className="h-[30px] w-[24px] text-[#252B42]"/>
@@ -82,7 +82,7 @@ export default function Contact () {
         {/* last part */}
         <div className="flex flex-col justify-center items-center text-center mt-[20px]">
             <Image src="/arrow.png" alt="pic" height="20" width="70"/>
-            <h5 className="text-[16px] font-bold text-[#252B42] mt-[30px]">WE Can't WAIT TO MEET YOU</h5>
+            <h5 className="text-[16px] font-bold text-[#252B42] mt-[30px]">WE Can&apos;t WAIT TO MEET YOU</h5>
             <h1 className="text-[50px] font-bold text-[#252B42] mt-[15px]">Let&apos;s Talk</h1>
             <div className="h-[52px] w-[190px] rounded-[5px] bg-[#23A6F0] flex justify-center mt-[15px] mb-[500px] lg:mb-[200px]">
                    <button className="text-[14px] font-bold">Try it free now</button>
