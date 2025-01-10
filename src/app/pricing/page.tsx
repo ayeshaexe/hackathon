@@ -215,7 +215,7 @@ export default function Pricing () {
             <h2 className="text-[40px] font-bold text-[#252B42]">Pricing FAQs</h2>
             <h4 className="text-[20px] font-normal text-[#737373]">
                 We focus on ergonomics and meeting 
-                you where you work. It's only 
+                you where you work. It&apos;s only 
                 a keystroke away.
             </h4>
             </div>
@@ -305,7 +305,7 @@ export default function Pricing () {
     </div>
     </div>
     <div className="hidden lg:flex lg:flex-col justify-center items-center text-center text-[20px] font-normal text-[#737373] mt-[50px]">
-        <h4>Haven’t got your answer? Contact our support</h4>
+        <h4>Haven&apos;t got your answer? Contact our support</h4>
     </div>
     {/* part2 */}
     <div className="flex items-center justify-center mt-[30px]">
@@ -374,7 +374,7 @@ export default function Pricing () {
     </div>
     </div>
     <div className="flex flex-col lg:hidden justify-center items-center text-center text-[20px] font-normal text-[#737373] mt-[50px] mx-5">
-        <h4>Haven’t got your answer? Contact our support</h4>
+        <h4>Haven&apos;t got your answer? Contact our support</h4>
     </div>
         <div className="h-[300px] flex flex-col justify-center items-center text-center">
             <h2 className="text-[40px] font-bold text-[#252B42]">Start your 14 days free trial</h2>

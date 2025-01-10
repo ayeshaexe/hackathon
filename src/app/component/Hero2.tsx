@@ -152,7 +152,7 @@ export default function Hero2 () {
           <div className=" text-white flex flex-col items-center justify-center lg:place-items-start lg:ml-[50px] lg:w-[400px]">
             <h4 className="text-[20px] font-medium">SUMMER 2020</h4>
             <h1 className="text-[50px] font-bold">Vita Classic Product</h1>
-            <p className="text-[14px] font-normal">We know how large objects will act, We know how are objects will act, We know</p>
+            <p className="text-[14px] font-normal">We know how large objects will act&#39; We know how are objects will act&#39; We know</p>
             <div className="flex flex-row items-center gap-4 mt-[20px]">
               <h3 className="text-[24px] font-bold">$16.48</h3>
               <button className="bg-[#2DC071] text-white text-[14px] font-bold hover:bg-[#51cf8c] h-[52px] w-[180px] rounded-[5px]">ADD TO CART</button>
@@ -176,7 +176,7 @@ export default function Hero2 () {
             <h4 className="text-[20px] font-medium text-[#737373] w-[150px] text-center">SUMMER 2020</h4>
             <h1 className="text-[40px] font-bold text-[#252B42] leading-[50px] mt-[20px] w-[200px] text-center lg:w-[400px] lg:text-start">Part of the Neural 
             Universe</h1>
-            <p className="text-[14px] font-normal text-[#737373] mt-[20px] w-[200px] text-center lg:text-start lg:w-[400px]">We know how large objects will act, We know how are objects will act, We know</p>
+            <p className="text-[14px] font-normal text-[#737373] mt-[20px] w-[200px] text-center lg:text-start lg:w-[400px]">We know how large objects will act&#39; We know how are objects will act&#39; We know</p>
             <div className="flex flex-col lg:flex-row items-center gap-4 mt-[20px]">
             <button className="bg-[#23A6F0] lg:bg-[#2DC071] text-white text-[14px] font-bold lg:hover:bg-[#51cf8c] h-[52px] w-[180px] rounded-[5px] uppercase">Buy Now</button>
               <button className="lg:text-[#2DC071] text-[#23A6F0] text-[14px] font-bold lg:hover:bg-[#23856D] h-[52px] w-[180px] rounded-[5px] uppercase border-2 border-solid lg:border-[#2DC071] border-[#23A6F0]">Read More</button>
@@ -205,9 +205,9 @@ export default function Hero2 () {
               <small className="text-[12px] font-normal text-[#737373]">New</small>
             </div>
             <h4 className="text-[20px] font-normal text-[#252B42] w-[247px]">Loudest à la Madison #1 
-            (L'integral)</h4>
+            (L&apos;integral)</h4>
             <p className="text-[14px] font-normal text-[#737373] w-[250px] mt-[10px]">We focus on ergonomics and meeting 
-              you where you work. It's only a 
+              you where you work. It&apos;s only a 
               keystroke away.</p>
               <div className="flex flex-row lg:gap-[130px] gap-[50px] mt-[20px]">
               <div className="flex flex-row gap-1">
@@ -237,9 +237,9 @@ export default function Hero2 () {
               <small className="text-[12px] font-normal text-[#737373]">New</small>
             </div>
             <h4 className="text-[20px] font-normal text-[#252B42] w-[247px]">Loudest à la Madison #1 
-            (L'integral)</h4>
+            (L&apos;integral)</h4>
             <p className="text-[14px] font-normal text-[#737373] w-[250px] mt-[10px]">We focus on ergonomics and meeting 
-              you where you work. It's only a 
+              you where you work. It&apos;s only a 
               keystroke away.</p>
               <div className="flex flex-row gap-[50px] lg:gap-[130px] mt-[20px]">
               <div className="flex flex-row gap-1">
@@ -269,9 +269,9 @@ export default function Hero2 () {
               <small className="text-[12px] font-normal text-[#737373]">New</small>
             </div>
             <h4 className="text-[20px] font-normal text-[#252B42] w-[247px]">Loudest à la Madison #1 
-            (L'integral)</h4>
+            (L&apos;integral)</h4>
             <p className="text-[14px] font-normal text-[#737373] w-[250px] mt-[10px]">We focus on ergonomics and meeting 
-              you where you work. It's only a 
+              you where you work. It&apos;s only a 
               keystroke away.</p>
               <div className="flex flex-row gap-[50px] lg:gap-[130px] mt-[20px]">
               <div className="flex flex-row gap-1">

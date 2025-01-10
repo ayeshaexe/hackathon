@@ -342,6 +342,7 @@ export default function ShopSection() {
         Next
       </button>
     </div>
+    <Footer/>
       </>
     );
   }
